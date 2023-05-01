@@ -9,6 +9,6 @@ export const sanityConfig = {
   // When in development/working locally, it's more important to keep costs down as hot reloading can incur a lot of API calls
   // And every page load calls getStaticProps.
   // To get the lowest latency, lowest cost, and latest data, use the Instant Preview mode
-  apiVersion: '2022-08-08',
+  apiVersion: '2022-11-15',
   // see https://www.sanity.io/docs/api-versioning for how versioning works
 }

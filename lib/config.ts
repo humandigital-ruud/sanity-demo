@@ -32,7 +32,7 @@ export const config: Config = {
     dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
     useCdn:
       typeof document !== 'undefined' && process.env.NODE_ENV === 'production',
-    apiVersion: '2022-08-08',
+    apiVersion: '2022-11-15',
   },
   readToken: process.env.SANITY_API_READ_TOKEN,
   writeToken: process.env.SANITY_API_WRITE_TOKEN,
