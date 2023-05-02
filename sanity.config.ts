@@ -32,7 +32,7 @@ const pluginsBase = (marketName?: string) => {
       defaultDocumentNode,
     }),
     unsplashImageAsset(),
-    visionTool({defaultApiVersion: '2022-08-08'}),
+    visionTool({defaultApiVersion: '2022-11-15'}),
     media(),
     // Used for field-level translation in some schemas
     internationalizedArray({
